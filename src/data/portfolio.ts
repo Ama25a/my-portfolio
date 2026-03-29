@@ -81,6 +81,22 @@ export const skills = [
 
 
 export const experience = [
+    {
+    company: "MoovOn Services & Solutions Pvt. Ltd.",
+    role: "Full Stack Developer Intern",
+    type: "Internship",
+    location: "Remote",
+    start: "October 2025",
+    end: "March 2026",
+    points: [
+      "Developed a fully functional Taskji using the MERN stack",
+      "Worked with backend design logic",
+      "Integrated MongoDB for secure data storage and optimized database queries",
+      "Collaborated with team members to build scalable and responsive applications"
+    ],
+    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Git"],
+    certificate: null
+  },
   {
     company: "Techoboot",
     role: "Full Stack Developer Intern",
