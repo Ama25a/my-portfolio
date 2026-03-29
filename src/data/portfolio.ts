@@ -85,7 +85,7 @@ export const experience = [
     company: "MoovOn Services & Solutions Pvt. Ltd.",
     role: "Full Stack Developer Intern",
     type: "Internship",
-    location: "Remote",
+    location: "On site",
     start: "October 2025",
     end: "March 2026",
     points: [
@@ -101,7 +101,7 @@ export const experience = [
     company: "Techoboot",
     role: "Full Stack Developer Intern",
     type: "Internship",
-    location: "Remote",
+    location: "On site",
     start: "Jul 2024",
     end: "Aug 2025",
     points: [
