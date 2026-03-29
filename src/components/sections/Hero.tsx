@@ -1,11 +1,11 @@
-import { motion } from 'framer-motion'
-import { ArrowDown, Download, Github, Linkedin, MapPin, Calendar, Code2, Sparkles, Zap, Rocket } from 'lucide-react'
-import { SiReact, SiTypescript, SiJavascript, SiNodedotjs, SiTailwindcss } from 'react-icons/si'
-import { FaCode, FaLaptopCode, FaMobile } from 'react-icons/fa'
-import { Button } from '@/components/ui/button'
-import { Badge } from '@/components/ui/badge'
 import AnimatedProfilePicture from '@/components/ui/animated-profile-picture'
-import { hero, contact } from '@/data/portfolio'
+import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
+import { contact, hero } from '@/data/portfolio'
+import { motion } from 'framer-motion'
+import { Calendar, Code2, Download, Github, Linkedin, MapPin, Sparkles, Zap } from 'lucide-react'
+import { FaCode, FaLaptopCode } from 'react-icons/fa'
+import { SiJavascript, SiNodedotjs, SiReact, SiTailwindcss, SiTypescript } from 'react-icons/si'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -135,8 +135,8 @@ export default function Hero() {
           <motion.div variants={itemVariants} className="flex justify-center mb-8">
             <AnimatedProfilePicture 
               src="/profile-picture.jpg"
-              alt="Ankit Kumar"
-              size={180}
+              alt="aman kumar"
+              size={170}
               className="mb-4"
             />
           </motion.div>
