@@ -1,9 +1,9 @@
 export const hero = {
   name: "Aman Kumar Prasad",
-  role: "Python Developer | AI Enthusiast",
+  role: "CSV Engineer| AI Enthusiast",
   tagline: "Crafting smart solutions with Python, AI, and Full-Stack development",
   location: "Bhubaneswar, India",
-  availability: "Open to Internships & Full-Time Opportunities",
+  availability: "Open to Full-Time Opportunities and On Role Only",
   ctas: [
     { text: "View Projects", href: "#projects", variant: "primary" },
     { text: "Download CV", href: "/Aman_Kumar_Prasad_CSE(AI).pdf", variant: "secondary" },
@@ -19,7 +19,7 @@ export const contact = {
     github: "https://github.com/Ama25a", // (you can give me your GitHub username, I'll update)
     linkedin: "https://linkedin.com/in/amn25a",
     twitter: "", // (leave empty if not available)
-    leetcode: "", // (leave empty if not available)
+    leetcode: "https://leetcode.com/u/Aman25_12/",
     codechef: "" // (leave empty if not available)
   }
 }
@@ -81,38 +81,171 @@ export const skills = [
 
 
 export const experience = [
-    {
-    company: "MoovOn Services & Solutions Pvt. Ltd.",
-    role: "Full Stack Developer Intern",
-    type: "Internship",
-    location: "On site",
-    start: "October 2025",
-    end: "March 2026",
-    points: [
-      "Developed a fully functional Taskji using the MERN stack",
-      "Worked with backend design logic",
-      "Integrated MongoDB for secure data storage and optimized database queries",
-      "Collaborated with team members to build scalable and responsive applications"
-    ],
-    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Git"],
-    certificate: null
-  },
+
   {
-    company: "Techoboot",
-    role: "Full Stack Developer Intern",
-    type: "Internship",
+
+    company: "Servilink Systems Ltd.",
+
+    role: "CSV Engineer",
+
+    type: "Full-time",
+
     location: "On site",
-    start: "Jul 2024",
-    end: "Aug 2025",
+
+    start: "October 2026",
+
+    end: "Present",
+
     points: [
-      "Developed a fully functional E-Commerce website using the MERN stack",
-      "Worked with React.js for frontend design and Node.js/Express.js for backend logic",
-      "Integrated MongoDB for secure data storage and optimized database queries",
-      "Collaborated with team members to build scalable and responsive applications"
+
+      "Working on Computerized System Validation (CSV) activities in the pharmaceutical industry",
+
+      "Learning and applying GAMP 5 guidelines and ALCOA+ data integrity principles",
+
+      "Assisting in CSV documentation, including test scripts, test data sheets, and validation reports",
+
+      "Performing verification of alarms, error handling, and system functionality",
+
+      "Understanding regulatory requirements, including 21 CFR Part 11"
+
     ],
-    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Git"],
+
+    skills: [
+
+      "Computerized System Validation (CSV)",
+
+      "GAMP 5",
+
+      "ALCOA+",
+
+      "21 CFR Part 11",
+
+      "CSV Documentation",
+
+      "System Validation",
+
+      "Alarm Verification",
+
+      "Pharmaceutical Compliance"
+
+    ],
+
     certificate: null
+
   },
+
+  {
+
+    company: "KGS Technology Group, Private Limited",
+
+    role: "US IT Recruiter",
+
+    type: "Full-time",
+
+    location: "On site",
+
+    start: "May 2026",
+
+    end: "September 2026",
+
+    points: [
+
+      "Sourced and screened candidates for US-based IT positions, specializing in Corp-to-Corp (C2C) placements across various technology roles",
+
+      "Managed the end-to-end recruitment lifecycle, including candidate sourcing, resume screening, rate negotiation, and coordination with implementation partners and vendors",
+
+      "Coordinated interview scheduling, offer negotiations, and onboarding documentation between clients, vendors, and candidates",
+
+      "Managed candidate and vendor relationships to support timely and successful placements"
+
+    ],
+
+    skills: [
+
+      "US IT Recruitment",
+
+      "C2C Staffing",
+
+      "Candidate Sourcing",
+
+      "Resume Screening",
+
+      "Vendor Management",
+
+      "Rate Negotiation",
+
+      "Talent Acquisition"
+
+    ],
+
+    certificate: null
+
+  },
+
+  {
+
+    company: "MoovOn Services & Solutions Pvt. Ltd.",
+
+    role: "Full Stack Developer Intern",
+
+    type: "Internship",
+
+    location: "On site",
+
+    start: "October 2025",
+
+    end: "March 2026",
+
+    points: [
+
+      "Developed a fully functional Taskji application using the MERN stack",
+
+      "Worked on backend architecture, application logic, and API development",
+
+      "Integrated MongoDB for secure data storage and optimized database queries",
+
+      "Collaborated with team members to build scalable and responsive applications"
+
+    ],
+
+    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Git"],
+
+    certificate: null
+
+  },
+
+  {
+
+    company: "Techoboot",
+
+    role: "Full Stack Developer Intern",
+
+    type: "Internship",
+
+    location: "On site",
+
+    start: "July 2024",
+
+    end: "August 2024",
+
+    points: [
+
+      "Developed a fully functional E-Commerce website using the MERN stack",
+
+      "Worked with React.js for frontend design and Node.js/Express.js for backend logic",
+
+      "Integrated MongoDB for secure data storage and optimized database queries",
+
+      "Collaborated with team members to build scalable and responsive applications"
+
+    ],
+
+    skills: ["React.js", "Node.js", "Express.js", "MongoDB", "Git"],
+
+    certificate: null
+
+  },
+
   {
     company: "Workshops & Certifications",
     role: "Trainee",
@@ -129,6 +262,7 @@ export const experience = [
     skills: ["Cyber Security", "Cloud Computing", "IoT", "Industry 4.0"],
     certificate: "/certificates/nptel-industry4.0.pdf"
   }
+
 ]
 
 

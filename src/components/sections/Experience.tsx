@@ -1,9 +1,8 @@
-import { motion } from 'framer-motion'
-import { Calendar, MapPin, ExternalLink, Award, Briefcase, TrendingUp, Users, Target } from 'lucide-react'
-import { FaBriefcase, FaUserTie, FaHandshake, FaLightbulb } from 'react-icons/fa'
 import { Badge } from '@/components/ui/badge'
 import { Button } from '@/components/ui/button'
 import { experience } from '@/data/portfolio'
+import { motion } from 'framer-motion'
+import { Award, Briefcase, Calendar, ExternalLink, MapPin, Target, TrendingUp } from 'lucide-react'
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -68,9 +67,7 @@ export default function Experience() {
             <motion.div
               key={index}
               variants={itemVariants}
-              className={`relative mb-12 ${
-                index % 2 === 0 ? 'md:pr-1/2 md:text-right' : 'md:pl-1/2 md:ml-8'
-              }`}
+              className="relative mb-12 md:ml-16"
             >
               {/* Timeline dot */}
               <motion.div 
