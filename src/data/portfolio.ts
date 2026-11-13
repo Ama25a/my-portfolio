@@ -260,7 +260,7 @@ export const experience = [
       "Earned NPTEL Certificate in Industry 4.0 and Industrial Internet of Things"
     ],
     skills: ["Cyber Security", "Cloud Computing", "IoT", "Industry 4.0"],
-    certificate: "/certificates/nptel-industry4.0.pdf"
+    certificate: null
   }
 
 ]
