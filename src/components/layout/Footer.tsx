@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Github, Linkedin, Twitter, Heart, ArrowUp } from 'lucide-react'
+import { Github, Linkedin, Heart, ArrowUp } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { contact, hero } from '@/data/portfolio'
 
@@ -13,7 +13,6 @@ export default function Footer() {
   const socialLinks = [
     { icon: Github, href: contact.socials.github, label: 'GitHub' },
     { icon: Linkedin, href: contact.socials.linkedin, label: 'LinkedIn' },
-    { icon: Twitter, href: contact.socials.twitter, label: 'Twitter' },
   ]
 
   return (

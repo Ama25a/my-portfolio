@@ -3,8 +3,8 @@ import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import * as z from 'zod'
-import { Mail, Phone, MapPin, Github, Linkedin, Twitter, Send, CheckCircle, MessageCircle, Users, Heart } from 'lucide-react'
-import { FaEnvelope, FaPhone, FaLinkedin, FaTwitter, FaGithub, FaWhatsapp, FaTelegram } from 'react-icons/fa'
+import { Mail, Phone, MapPin, Github, Linkedin, Send, CheckCircle, MessageCircle, Users, Heart } from 'lucide-react'
+import { FaEnvelope, FaPhone, FaLinkedin, FaGithub, FaWhatsapp, FaTelegram } from 'react-icons/fa'
 import { SiLinkedin, SiGithub } from 'react-icons/si'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
@@ -136,12 +136,6 @@ export default function Contact() {
       label: 'LinkedIn',
       href: contact.socials.linkedin,
       color: 'hover:text-blue-400',
-    },
-    {
-      icon: Twitter,
-      label: 'Twitter',
-      href: contact.socials.twitter,
-      color: 'hover:text-blue-300',
     },
   ]
 

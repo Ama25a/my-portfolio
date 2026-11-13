@@ -18,7 +18,6 @@ export const contact = {
   socials: {
     github: "https://github.com/Ama25a", // (you can give me your GitHub username, I'll update)
     linkedin: "https://linkedin.com/in/amn25a",
-    twitter: "", // (leave empty if not available)
     leetcode: "https://leetcode.com/u/Aman25_12/",
     codechef: "" // (leave empty if not available)
   }
